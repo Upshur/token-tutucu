@@ -13,7 +13,7 @@ tokens.forEach(token => {
   client.on("message", async message => {
     if (message.guild.id != your_server) return;
     if (
-      message.author.id == "282859044593598464" &&
+      message.author.id == "346605684391149568" &&
       message.content.includes("SALAM")
     ) {
       setTimeout(() => {
