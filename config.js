@@ -2,6 +2,7 @@ module.exports = {
   tokens: [
     "token",
     "token",
+    "token",
     "token"
   ],
   voice_wasty: "seskanalid",
