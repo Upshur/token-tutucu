@@ -1,7 +1,7 @@
 const {
   tokens,
-  voice_channel,
-  text_channel,
+  voice_wasty,
+  text_wasty,
   your_server
 } = require("./config.js");
 const time = [];
@@ -13,20 +13,20 @@ tokens.forEach(token => {
   client.on("message", async message => {
     if (message.guild.id != your_server) return;
     if (
-      message.author.id == "824685479323631626" &&
-      message.content.includes("Selam")
+      message.author.id == "sizinidniz" &&
+      message.content.includes("x") // Buraya yazdığın şeyler ile tokenleri konuşturabiliyorsun
     ) {
       setTimeout(() => {
-        message.channel.send("SALAM");
+        message.channel.send("y"); //tokenlerin diyeceği söz
       }, time[Math.floor(Math.random() * time.length)]);
     }
   });
 
   client.on("ready", () => {
-    console.log(client.user.tag + " is ready!");
+    console.log(client.user.tag + " hazırım!");
     client.guilds
       .get(your_server)
-      .channels.get(voice_channel)
+      .channels.get(voice_wasty)
       .join();
   });
 });
