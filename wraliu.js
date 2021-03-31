@@ -26,7 +26,7 @@ tokens.forEach(token => {
     console.log(client.user.tag + " hazırım!");
     client.guilds
       .get(your_server)
-      .channels.get(voice_wasty)
+      .channels.cache.get(voice_wasty)
       .join();
   });
 });
