@@ -1,18 +1,18 @@
 {
-  "name": "Wraliufirst",
+  "name": "wastyfirst",
   "version": "A",
-  "main": "wraliu.js",
+  "main": "wasty.js",
   "repository": {
     "type": "git"
   },
-  "author": "Wraliu",
-  "license": "Wraliu",
+  "author": "wasty",
+  "license": "wasty",
   "dependencies": {
     "discord.js": "^12.5.1",
     "node": "^15.12.0"
   },
   "scripts": {
-    "start": "node wraliu.js",
-    "test": "node wraliu.js"
+    "start": "node wasty.js",
+    "test": "node wasty.js"
   }
 }
