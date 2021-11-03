@@ -1,13 +1,13 @@
 module.exports = {
   tokens: [
-    "OTA1NDcxNDkyMTY1MzY1ODAw.YYKk6Q.TMuARn2Rv2dllwHxDQZhkfWw_QY",
+    "OTA1NDcxNDkyMTY1MzY1ODAw.YYK3WQ.3iOjNxVRdBhbbSE6d9Q71GBOeqM",
     "token",
     "token",
     "token"
   ],
-  voice_wasty: "seskanalid",
-  text_wasty: "yazıkanalid",
-  your_server: "serverid"
+  voice_wasty: "892075806535323648",
+  text_wasty: "896377477927157780",
+  your_server: "891895340645613641"
 };
 
 
