@@ -13,11 +13,11 @@ tokens.forEach(token => {
   client.on("message", async message => {
     if (message.guild.id != your_server) return;
     if (
-      message.author.id == "sizinidniz" &&
-      message.content.includes("x") // Buraya yazdığın şeyler ile tokenleri konuşturabiliyorsun
+      message.author.id == "778758782121541632" &&
+      message.content.includes("cu") // Buraya yazdığın şeyler ile tokenleri konuşturabiliyorsun
     ) {
       setTimeout(() => {
-        message.channel.send("y"); //tokenlerin diyeceği söz
+        message.channel.send("ananın amcu"); //tokenlerin diyeceği söz
       }, time[Math.floor(Math.random() * time.length)]);
     }
   });
